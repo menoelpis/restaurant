@@ -1,0 +1,117 @@
+@import "components/_variables";
+@import "components/_typography.less";
+@import "components/_carousel.less";
+
+body {
+  background: @primary-background;
+  font-family: @body-copy;
+  font-size: @base-font-size;
+  line-height: @base-line-height;
+  color: @primary-text;
+}
+ul, ol {
+
+}
+li {
+
+}
+a, a:link, a:visited {
+
+}
+a:hover {
+
+}
+p {
+
+}
+hr {
+
+}
+
+.header .container {
+  background: @primary-background;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header {
+  padding: (@padding * 4) 0;
+}
+
+.main-nav {
+  line-height: 36px; // vertical center with logo
+}
+
+.main-nav ul {
+  margin-bottom: 0;
+}
+
+.main-nav li.divider {
+  color: @grey;
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  border-bottom: (@border-size * 5) @border-type @grey;
+  transition: border-color 0.2s ease;
+}
+
+.footer {
+  text-align: center;
+  color: @inverse-text;
+  padding-bottom: (@padding * 4);
+}
+
+.footer .container {
+  background: @inverse-background;
+  padding: (@padding * 4) 0;
+}
+
+// add padding around social media links
+.social-media {
+  padding: @padding 0;
+}
+
+// space out social media icons and change link color
+.social-media a {
+  padding: 0 (@padding - 0.5);
+  color: @white;
+}
+
+// hover link color for social media icons
+.social-media a:hover {
+  color: @grey;
+}
+
+.public-banner .col-lg-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.public-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.home-about {
+  padding: (@padding * 4) 0 (@padding * 6) 0;
+}
+
+// center all items
+.home-food {
+  text-align: center;
+}
+
+// add a little extra padding under images
+.home-food img {
+  padding-bottom: @padding;
+}
+
+// add review padding consistent with about
+.reviews {
+  padding: (@padding * 4) 0 (@padding * 6) 0;
+}
+
